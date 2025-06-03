@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+header{
+    background-color: aquamarine;
+
+}
+footer{
+    background-color: aquamarine;
+    padding:20px;
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+p{
+font-family: sans-serif;
+}
+h2{
+    color: green;
+}
+h3{
+    color:maroon;
+}
+.logo{
+    height:50px;
+    width:auto;
+    border-radius: 25px;
+}
+#companyname{
+    color:green;
+}
+.logoarea{
+display: flex;
+align-items: center;
+gap:20px;
+}
+nav{text-align: center;
+text-decoration: none;}
+nav ol{
+    list-style-type: decimal;
+    text-decoration: none;
+}
+nav ol li{
+    display:inline-block; 
+    margin-left: 20px;
+    list-style-type: decimal;
+    text-decoration: none;
+}
+nav ol li a{
+    color:purple;
+    
+}
+nav ol li a:hover{
+    background: moccasin;
+}
+.hero{
+    
+    text-align: center;
+    padding: 80px 30px;
+}
+.herocontent{
+    background-color:violet;
+    padding: 40px ;
+    border-radius: 10px;
+}
