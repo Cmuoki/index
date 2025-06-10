@@ -1,0 +1,70 @@
+<head>
+    <title>Title</title>
+
+</head>
+<style>
+    body {
+        background-color: aqua;
+        text-align: center;
+
+    }
+
+   
+    header{
+        background-color: grey;
+        color: wheat;
+        padding: 20px;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    header h1{ font-size: 24px;}
+    nav a{
+        color:white;
+        text-decoration: none;
+        margin-left:20px;
+    }
+    @media(max-width:600px){ 
+        header{
+            flex-direction:column;
+            align-items:flex-start;
+            background-color: lightgoldenrodyellow;
+            color: black;
+        }
+        nav a{
+            display:block;
+            color: black;
+            margin: 5px 0;
+        }
+         body{
+            background-color: brown;
+         }
+        }
+    
+    
+</style>
+
+<body>
+    <header>responsive background
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">services</a>
+        <a href="#">contact</a>
+    </nav></header>
+    <h1>responsive background</h1>
+    <p>A responsive background automatically adjusts to different screen sizes and devices, ensuring optimal display
+        across desktops, tablets, and mobile phones. Techniques include:
+
+        CSS background-size (e.g., cover, contain) for flexible scaling.
+
+        Media Queries to load different images or adjust properties based on screen width.
+
+        SVG/Vector Graphics for crisp, scalable visuals.
+
+        CSS Gradients for lightweight, resolution-independent color transitions.
+
+        Lazy Loading to improve performance on mobile.
+
+        Responsive backgrounds enhance UX by maintaining visual appeal and fast loading times on all devices.</p>
+</body>

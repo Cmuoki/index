@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+    <style>
+        #one{
+            animation-name: myanimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes myanimation{
+            0%{color: blue;}
+            50%{color: red;}
+            100%{color: yellow;}
+        }
+        #two{
+            animation:slidein 5s infinite;
+        }
+        @keyframes slidein{
+            0%{transform:translatex(0);
+            color: blue;}
+            100%{transform: translateX(600px);
+            color: green;}
+        }
+        #three{
+            background-color: darkgreen;
+            width:200px;
+            height:200px;
+            animation-name: spin;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes spin{
+            0%{transform: rotate(0deg);
+            background-color: deeppink;}
+            50%{transform: rotate(180deg);
+            background-color: purple;}
+            100%{transform: rotate(360deg);}
+        }
+        #btn{
+            background-color: burlywood;
+            padding:10px 20px;
+            color: brown;
+            border: none;
+            transition:background-color o.4s ease,transform 0.4s ease ;
+        }
+        #btn:hover{
+            background-color: cornflowerblue;
+            transform: scale(1.1);
+        }
+    </style>
+    <body>
+        <h1 id="two">welcome to my site</h1>
+        <p id="one">Animation is the art of bringing static elements to life through motion, creating engaging and dynamic visual experiences. It combines creativity and technology to convey stories, explain concepts, or enhance user interactions—whether in films, video games, web design, or marketing. From smooth transitions and micro-interactions to complex 3D modeling, animation captivates audiences by adding fluidity, emotion, and depth to digital and traditional media. Tools like CSS animations, JavaScript (GSAP), and software like Blender or After Effects empower designers and developers to craft immersive, interactive, and visually stunning effects.</p>
+        <div id="three">hello</div>
+        <button id="btn">click me</button>
+    </body>
+</html>
